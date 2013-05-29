@@ -2,15 +2,15 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:imysound/imysound.xcodeproj">
+      location = "group:../Savanna/Savanna.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:DejaEditor/DejaEditor.xcodeproj">
+      location = "group:../imyvoa/imyvoa.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:imyvoa/imyvoa.xcodeproj">
+      location = "group:../imysound/imysound.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:Savanna/Savanna.xcodeproj">
+      location = "group:../DejaEditor/DejaEditor.xcodeproj">
    </FileRef>
 </Workspace>
