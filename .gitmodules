@@ -1,3 +1,0 @@
-[submodule "libs/make-fmwk"]
-	path = libs/make-fmwk
-	url = git://github.com/defagos/make-fmwk.git
