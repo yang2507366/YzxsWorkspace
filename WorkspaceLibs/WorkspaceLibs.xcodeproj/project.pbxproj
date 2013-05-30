@@ -48,7 +48,6 @@
 		3EF9AF7417577DA2006F9399 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF9AF6E17577DA2006F9399 /* FMDatabaseAdditions.m */; };
 		3EF9AF7517577DA2006F9399 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF9AF6F17577DA2006F9399 /* FMDatabasePool.m */; };
 		3EF9AF7617577DA2006F9399 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF9AF7017577DA2006F9399 /* FMDatabaseQueue.m */; };
-		3EF9AF7717577DA2006F9399 /* fmdb.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF9AF7117577DA2006F9399 /* fmdb.m */; };
 		3EF9AF7817577DA2006F9399 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF9AF7217577DA2006F9399 /* FMResultSet.m */; };
 /* End PBXBuildFile section */
 
@@ -138,7 +137,6 @@
 		3EF9AF6E17577DA2006F9399 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = ../../libs/fmdb/src/FMDatabaseAdditions.m; sourceTree = "<group>"; };
 		3EF9AF6F17577DA2006F9399 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = ../../libs/fmdb/src/FMDatabasePool.m; sourceTree = "<group>"; };
 		3EF9AF7017577DA2006F9399 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = ../../libs/fmdb/src/FMDatabaseQueue.m; sourceTree = "<group>"; };
-		3EF9AF7117577DA2006F9399 /* fmdb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = fmdb.m; path = ../../libs/fmdb/src/fmdb.m; sourceTree = "<group>"; };
 		3EF9AF7217577DA2006F9399 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = ../../libs/fmdb/src/FMResultSet.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -297,7 +295,6 @@
 				3EF9AF6E17577DA2006F9399 /* FMDatabaseAdditions.m */,
 				3EF9AF6F17577DA2006F9399 /* FMDatabasePool.m */,
 				3EF9AF7017577DA2006F9399 /* FMDatabaseQueue.m */,
-				3EF9AF7117577DA2006F9399 /* fmdb.m */,
 				3EF9AF7217577DA2006F9399 /* FMResultSet.m */,
 				3EF9AF6417577D88006F9399 /* Supporting Files */,
 			);
@@ -475,7 +472,6 @@
 				3EF9AF7417577DA2006F9399 /* FMDatabaseAdditions.m in Sources */,
 				3EF9AF7517577DA2006F9399 /* FMDatabasePool.m in Sources */,
 				3EF9AF7617577DA2006F9399 /* FMDatabaseQueue.m in Sources */,
-				3EF9AF7717577DA2006F9399 /* fmdb.m in Sources */,
 				3EF9AF7817577DA2006F9399 /* FMResultSet.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
