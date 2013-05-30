@@ -387,6 +387,7 @@
 				3EF9AF3217577993006F9399 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3EF9AF6A17577D88006F9399 /* Build configuration list for PBXNativeTarget "fmdb" */ = {
 			isa = XCConfigurationList;
@@ -395,6 +396,7 @@
 				3EF9AF6C17577D88006F9399 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
