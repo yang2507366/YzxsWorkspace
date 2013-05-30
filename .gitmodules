@@ -10,3 +10,6 @@
 [submodule "libs/ZipKit"]
 	path = libs/ZipKit
 	url = git://github.com/bosmacs/zipkit.git
+[submodule "libs/SDWebImage"]
+	path = libs/SDWebImage
+	url = https://github.com/rs/SDWebImage.git
