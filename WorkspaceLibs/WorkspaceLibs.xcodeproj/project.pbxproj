@@ -18,10 +18,26 @@
 		3EF9AF5917577C36006F9399 /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF9AF5117577C36006F9399 /* ASIInputStream.m */; };
 		3EF9AF5A17577C36006F9399 /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF9AF5217577C36006F9399 /* ASINetworkQueue.m */; };
 		3EF9AF5C17577C52006F9399 /* ASIWebPageRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF9AF5B17577C52006F9399 /* ASIWebPageRequest.m */; };
+		3EF9AF6217577D88006F9399 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EF9AF15175778A1006F9399 /* Foundation.framework */; };
+		3EF9AF7317577DA2006F9399 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF9AF6D17577DA2006F9399 /* FMDatabase.m */; };
+		3EF9AF7417577DA2006F9399 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF9AF6E17577DA2006F9399 /* FMDatabaseAdditions.m */; };
+		3EF9AF7517577DA2006F9399 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF9AF6F17577DA2006F9399 /* FMDatabasePool.m */; };
+		3EF9AF7617577DA2006F9399 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF9AF7017577DA2006F9399 /* FMDatabaseQueue.m */; };
+		3EF9AF7717577DA2006F9399 /* fmdb.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF9AF7117577DA2006F9399 /* fmdb.m */; };
+		3EF9AF7817577DA2006F9399 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF9AF7217577DA2006F9399 /* FMResultSet.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		3EF9AF2517577993006F9399 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EF9AF5F17577D88006F9399 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "include/${PRODUCT_NAME}";
@@ -46,6 +62,14 @@
 		3EF9AF5117577C36006F9399 /* ASIInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASIInputStream.m; path = "../../libs/asi-http-request/Classes/ASIInputStream.m"; sourceTree = "<group>"; };
 		3EF9AF5217577C36006F9399 /* ASINetworkQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASINetworkQueue.m; path = "../../libs/asi-http-request/Classes/ASINetworkQueue.m"; sourceTree = "<group>"; };
 		3EF9AF5B17577C52006F9399 /* ASIWebPageRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASIWebPageRequest.m; path = "../../libs/asi-http-request/Classes/ASIWebPageRequest/ASIWebPageRequest.m"; sourceTree = "<group>"; };
+		3EF9AF6117577D88006F9399 /* libfmdb.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libfmdb.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EF9AF6517577D88006F9399 /* fmdb-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "fmdb-Prefix.pch"; sourceTree = "<group>"; };
+		3EF9AF6D17577DA2006F9399 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = ../../libs/fmdb/src/FMDatabase.m; sourceTree = "<group>"; };
+		3EF9AF6E17577DA2006F9399 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = ../../libs/fmdb/src/FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		3EF9AF6F17577DA2006F9399 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = ../../libs/fmdb/src/FMDatabasePool.m; sourceTree = "<group>"; };
+		3EF9AF7017577DA2006F9399 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = ../../libs/fmdb/src/FMDatabaseQueue.m; sourceTree = "<group>"; };
+		3EF9AF7117577DA2006F9399 /* fmdb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = fmdb.m; path = ../../libs/fmdb/src/fmdb.m; sourceTree = "<group>"; };
+		3EF9AF7217577DA2006F9399 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = ../../libs/fmdb/src/FMResultSet.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +81,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3EF9AF5E17577D88006F9399 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EF9AF6217577D88006F9399 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -64,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				3EF9AF2917577993006F9399 /* asi-http-request */,
+				3EF9AF6317577D88006F9399 /* fmdb */,
 				3EF9AF14175778A1006F9399 /* Frameworks */,
 				3EF9AF13175778A1006F9399 /* Products */,
 			);
@@ -73,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				3EF9AF2717577993006F9399 /* libasi-http-request.a */,
+				3EF9AF6117577D88006F9399 /* libfmdb.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -111,6 +145,28 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		3EF9AF6317577D88006F9399 /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				3EF9AF6D17577DA2006F9399 /* FMDatabase.m */,
+				3EF9AF6E17577DA2006F9399 /* FMDatabaseAdditions.m */,
+				3EF9AF6F17577DA2006F9399 /* FMDatabasePool.m */,
+				3EF9AF7017577DA2006F9399 /* FMDatabaseQueue.m */,
+				3EF9AF7117577DA2006F9399 /* fmdb.m */,
+				3EF9AF7217577DA2006F9399 /* FMResultSet.m */,
+				3EF9AF6417577D88006F9399 /* Supporting Files */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
+		3EF9AF6417577D88006F9399 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3EF9AF6517577D88006F9399 /* fmdb-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,6 +185,23 @@
 			name = "asi-http-request";
 			productName = "asi-http-request";
 			productReference = 3EF9AF2717577993006F9399 /* libasi-http-request.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3EF9AF6017577D88006F9399 /* fmdb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EF9AF6A17577D88006F9399 /* Build configuration list for PBXNativeTarget "fmdb" */;
+			buildPhases = (
+				3EF9AF5D17577D88006F9399 /* Sources */,
+				3EF9AF5E17577D88006F9399 /* Frameworks */,
+				3EF9AF5F17577D88006F9399 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fmdb;
+			productName = fmdb;
+			productReference = 3EF9AF6117577D88006F9399 /* libfmdb.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -153,6 +226,7 @@
 			projectRoot = "";
 			targets = (
 				3EF9AF2617577993006F9399 /* asi-http-request */,
+				3EF9AF6017577D88006F9399 /* fmdb */,
 			);
 		};
 /* End PBXProject section */
@@ -172,6 +246,19 @@
 				3EF9AF5917577C36006F9399 /* ASIInputStream.m in Sources */,
 				3EF9AF5A17577C36006F9399 /* ASINetworkQueue.m in Sources */,
 				3EF9AF5C17577C52006F9399 /* ASIWebPageRequest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EF9AF5D17577D88006F9399 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EF9AF7317577DA2006F9399 /* FMDatabase.m in Sources */,
+				3EF9AF7417577DA2006F9399 /* FMDatabaseAdditions.m in Sources */,
+				3EF9AF7517577DA2006F9399 /* FMDatabasePool.m in Sources */,
+				3EF9AF7617577DA2006F9399 /* FMDatabaseQueue.m in Sources */,
+				3EF9AF7717577DA2006F9399 /* fmdb.m in Sources */,
+				3EF9AF7817577DA2006F9399 /* FMResultSet.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +344,30 @@
 			};
 			name = Release;
 		};
+		3EF9AF6B17577D88006F9399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/fmdb.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fmdb/fmdb-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3EF9AF6C17577D88006F9399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/fmdb.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fmdb/fmdb-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -274,6 +385,14 @@
 			buildConfigurations = (
 				3EF9AF3117577993006F9399 /* Debug */,
 				3EF9AF3217577993006F9399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3EF9AF6A17577D88006F9399 /* Build configuration list for PBXNativeTarget "fmdb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EF9AF6B17577D88006F9399 /* Debug */,
+				3EF9AF6C17577D88006F9399 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
