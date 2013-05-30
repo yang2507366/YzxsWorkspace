@@ -1,0 +1,247 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3EF9AF16175778A1006F9399 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EF9AF15175778A1006F9399 /* Foundation.framework */; };
+		3EF9AF1B175778A1006F9399 /* WorkspaceLibs.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3EF9AF1A175778A1006F9399 /* WorkspaceLibs.h */; };
+		3EF9AF1D175778A1006F9399 /* WorkspaceLibs.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF9AF1C175778A1006F9399 /* WorkspaceLibs.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3EF9AF10175778A1006F9399 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				3EF9AF1B175778A1006F9399 /* WorkspaceLibs.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3EF9AF12175778A1006F9399 /* libWorkspaceLibs.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libWorkspaceLibs.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EF9AF15175778A1006F9399 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3EF9AF19175778A1006F9399 /* WorkspaceLibs-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WorkspaceLibs-Prefix.pch"; sourceTree = "<group>"; };
+		3EF9AF1A175778A1006F9399 /* WorkspaceLibs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WorkspaceLibs.h; sourceTree = "<group>"; };
+		3EF9AF1C175778A1006F9399 /* WorkspaceLibs.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WorkspaceLibs.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3EF9AF0F175778A1006F9399 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EF9AF16175778A1006F9399 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3EF9AF09175778A1006F9399 = {
+			isa = PBXGroup;
+			children = (
+				3EF9AF17175778A1006F9399 /* WorkspaceLibs */,
+				3EF9AF14175778A1006F9399 /* Frameworks */,
+				3EF9AF13175778A1006F9399 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3EF9AF13175778A1006F9399 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3EF9AF12175778A1006F9399 /* libWorkspaceLibs.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3EF9AF14175778A1006F9399 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3EF9AF15175778A1006F9399 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3EF9AF17175778A1006F9399 /* WorkspaceLibs */ = {
+			isa = PBXGroup;
+			children = (
+				3EF9AF1A175778A1006F9399 /* WorkspaceLibs.h */,
+				3EF9AF1C175778A1006F9399 /* WorkspaceLibs.m */,
+				3EF9AF18175778A1006F9399 /* Supporting Files */,
+			);
+			path = WorkspaceLibs;
+			sourceTree = "<group>";
+		};
+		3EF9AF18175778A1006F9399 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3EF9AF19175778A1006F9399 /* WorkspaceLibs-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3EF9AF11175778A1006F9399 /* WorkspaceLibs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EF9AF20175778A1006F9399 /* Build configuration list for PBXNativeTarget "WorkspaceLibs" */;
+			buildPhases = (
+				3EF9AF0E175778A1006F9399 /* Sources */,
+				3EF9AF0F175778A1006F9399 /* Frameworks */,
+				3EF9AF10175778A1006F9399 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WorkspaceLibs;
+			productName = WorkspaceLibs;
+			productReference = 3EF9AF12175778A1006F9399 /* libWorkspaceLibs.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3EF9AF0A175778A1006F9399 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = yangzexin;
+			};
+			buildConfigurationList = 3EF9AF0D175778A1006F9399 /* Build configuration list for PBXProject "WorkspaceLibs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3EF9AF09175778A1006F9399;
+			productRefGroup = 3EF9AF13175778A1006F9399 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3EF9AF11175778A1006F9399 /* WorkspaceLibs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3EF9AF0E175778A1006F9399 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EF9AF1D175778A1006F9399 /* WorkspaceLibs.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3EF9AF1E175778A1006F9399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3EF9AF1F175778A1006F9399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3EF9AF21175778A1006F9399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/WorkspaceLibs.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WorkspaceLibs/WorkspaceLibs-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3EF9AF22175778A1006F9399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/WorkspaceLibs.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WorkspaceLibs/WorkspaceLibs-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3EF9AF0D175778A1006F9399 /* Build configuration list for PBXProject "WorkspaceLibs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EF9AF1E175778A1006F9399 /* Debug */,
+				3EF9AF1F175778A1006F9399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EF9AF20175778A1006F9399 /* Build configuration list for PBXNativeTarget "WorkspaceLibs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EF9AF21175778A1006F9399 /* Debug */,
+				3EF9AF22175778A1006F9399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3EF9AF0A175778A1006F9399 /* Project object */;
+}
