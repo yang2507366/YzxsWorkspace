@@ -4,3 +4,6 @@
 [submodule "libs/fmdb"]
 	path = libs/fmdb
 	url = git://github.com/ccgus/fmdb.git
+[submodule "libs/ZipArchive"]
+	path = libs/ZipArchive
+	url = git://github.com/mattconnolly/ZipArchive.git
