@@ -12,6 +12,7 @@
 		3EF9AF1D175778A1006F9399 /* WorkspaceLibs.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF9AF1C175778A1006F9399 /* WorkspaceLibs.m */; };
 		3EF9AF2817577993006F9399 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EF9AF15175778A1006F9399 /* Foundation.framework */; };
 		3EF9AF2D17577993006F9399 /* asi_http_request.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3EF9AF2C17577993006F9399 /* asi_http_request.h */; };
+		3EF9AF4A17577B84006F9399 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF9AF4917577B84006F9399 /* Reachability.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -47,6 +48,7 @@
 		3EF9AF2B17577993006F9399 /* asi-http-request-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "asi-http-request-Prefix.pch"; sourceTree = "<group>"; };
 		3EF9AF2C17577993006F9399 /* asi_http_request.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = asi_http_request.h; sourceTree = "<group>"; };
 		3EF9AF2E17577993006F9399 /* asi_http_request.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = asi_http_request.m; sourceTree = "<group>"; };
+		3EF9AF4917577B84006F9399 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = "../../libs/asi-http-request/External/Reachability/Reachability.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 		3EF9AF2917577993006F9399 /* asi-http-request */ = {
 			isa = PBXGroup;
 			children = (
+				3EF9AF4917577B84006F9399 /* Reachability.m */,
 				3EF9AF2C17577993006F9399 /* asi_http_request.h */,
 				3EF9AF2E17577993006F9399 /* asi_http_request.m */,
 				3EF9AF2A17577993006F9399 /* Supporting Files */,
@@ -209,6 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EF9AF4A17577B84006F9399 /* Reachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
