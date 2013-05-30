@@ -7,3 +7,6 @@
 [submodule "libs/ZipArchive"]
 	path = libs/ZipArchive
 	url = git://github.com/mattconnolly/ZipArchive.git
+[submodule "libs/ZipKit"]
+	path = libs/ZipKit
+	url = git://github.com/bosmacs/zipkit.git
