@@ -2,9 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:WorkspaceLibs/WorkspaceLibs.xcodeproj">
-   </FileRef>
-   <FileRef
       location = "group:../Savanna/Savanna.xcodeproj">
    </FileRef>
    <FileRef
